@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&family=Noto+Sans+Devanagari:wght@700;800&display=swap');
+
 :root {
   /* Fluid Glass Theme Colors */
   --primary-blue: #0ea5e9;
@@ -29,8 +31,6 @@
   --radius-lg: 1.5rem;
   --radius-full: 9999px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&family=Noto+Sans+Devanagari:wght@700;800&display=swap');
 
 * {
   margin: 0;
@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 .gradient-text {
   background: linear-gradient(135deg, var(--text-main) 0%, var(--primary-blue) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

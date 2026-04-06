@@ -35,8 +35,8 @@ const Navbar = () => {
     return (
         <nav className={`navbar-main ${scrolled ? 'scrolled' : ''}`}>
             <div className="container nav-content">
-                <a href="#home" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                    <span className="marathi-logo" style={{ fontSize: '1.25rem' }}>गणेश साईन बोर्ड</span>
+                <a href="#home" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
+                    <span className="marathi-logo" style={{ fontSize: '1.8rem', fontWeight: '900' }}>गणेश साईन बोर्ड</span>
                 </a>
 
                 {/* Desktop Menu */}
@@ -60,7 +60,7 @@ const Navbar = () => {
                 
                 <div className={`mobile-menu-panel ${mobileMenuOpen ? 'open' : ''}`}>
                     <div className="mobile-menu-header" style={{ display: 'flex', justifyContent: 'space-between', padding: '2rem' }}>
-                         <span className="marathi-logo" style={{ fontSize: '1.25rem' }}>गणेश साईन बोर्ड</span>
+                         <span className="marathi-logo" style={{ fontSize: '1.8rem', fontWeight: '900' }}>गणेश साईन बोर्ड</span>
                          <button onClick={closeMobileMenu} style={{ background: 'none', border: 'none', color: '#111' }}>
                              <X size={28} />
                          </button>
